@@ -19,3 +19,10 @@ Custom instalation of Laravel Breeze.
 ### Usage
 
 - TODO
+
+### Notes
+
+- composer create-project laravel/laravel example-app
+- composer require laravel/breeze --dev
+- php artisan breeze:install api
+- change ownership from app but don't change group

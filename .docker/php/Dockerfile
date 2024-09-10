@@ -28,7 +28,7 @@ COPY --from=composer/composer:latest-bin /composer /usr/bin/composer
 RUN mkdir -p /var/www/html/app
 
 # COPYPING FILES
-COPY ./../../* /var/www/html/app
+# COPY ./../../* /var/www/html/app
 
 # INSTALLING COMPOSER
 # WORKDIR /var/www/html/app
